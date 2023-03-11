@@ -1,0 +1,178 @@
+/* Settings Modal by DevilBro [edited] */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/ThemeDevBadge.css);
+
+:root {
+	--settingsmodalbackground: transparent;
+	--settingsmodalwidth: calc(100% - 50%/2);
+	--settingsmodalheight: calc(100% - 50%/4);
+}
+
+#app-mount .baseLayer-W6S8cY {
+	opacity: 1 !important;
+	transform: unset !important;
+	will-change: unset !important;
+}
+#app-mount .stop-animations * {
+	transition-property: inherit !important;
+	animation: inherit !important;
+}
+#app-mount .layer-86YKbF.stop-animations:first-child::after {
+	content: "" !important;
+	position: fixed !important;
+	background: rgb(0, 0, 0) !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0.3 !important;
+	z-index: 999 !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF {
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settingsmodalbackground) !important;
+	border-radius: 5px !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settingsmodalwidth) !important;
+	height: var(--settingsmodalheight) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF > div:first {
+    display: contents;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF > div,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .standardSidebarView-E9Pc3j {
+	position: static !important;
+	width: 100% !important;
+	height: -webkit-fill-available !important;
+	padding: unset !important;
+	overflow: hidden !important;
+}
+
+.premiumTab-39eQzY .selectedBackground-1t6xXq {
+    border-radius: 4px;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
+	padding: 20px !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .contentColumnDefault-3eyv5o {
+	padding: 20px 40px !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-3K3Z4C {
+	height: var(--settingsmodalheight) !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .repoHeader-2KfNvH {
+	max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .standardSidebarView-E9Pc3j .editor {
+	height: calc(var(--settingsmodalheight) - 120px) !important;
+}
+
+#app-mount .root-2zfUH6 {
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settingsmodalbackground) !important;
+	border-radius: 5px !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settingsmodalwidth) !important;
+	height: var(--settingsmodalheight) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+}
+#app-mount .root-2zfUH6.enterDone-menWZ8 {
+	transform: unset !important;
+}
+#app-mount .perksModal-CLcR1c {
+	position: static !important;
+	width: 100% !important;
+	height: -webkit-fill-available !important;
+	margin: unset !important;
+	padding: unset !important;
+}
+#app-mount .perksModalContentWrapper-3RHugb {
+	padding: 10px 0 10px !important;
+}
+#app-mount .root-2zfUH6 .perksModal-CLcR1c .carousel-3dvee9 {
+	margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
+}
+
+#app-mount .closeButton-PCZcma {
+    background-color: var(--close-color);
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: none;
+}
+#app-mount .closeButton-PCZcma:hover {
+    transform: scale(1.14);
+    transform-origin: center;
+}
+.closeButton-PCZcma svg,
+.keybind-13vtq8 {
+    visibility: hidden;
+}
+.root-2zfUH6.enterDone-menWZ8 .closeContent-1uXQiy,
+.root-2zfUH6.enterDone-menWZ8 .closeWrapper-1aVqeP {
+    margin-top: 14px;
+}
+
+.standardSidebarView-E9Pc3j {
+    border: var(--border-width) solid var(--border-color);
+    border-bottom-left-radius: var(--round-corners);
+    border-bottom-right-radius: var(--round-corners);
+    margin-top: 35px !important;
+}
+.standardSidebarView-E9Pc3j::before {
+    background: linear-gradient(var(--drag-gradient));
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 32px;
+    border-top-left-radius: var(--round-corners);
+    border-top-right-radius: var(--round-corners);
+    width: calc(100% - var(--border-width)*2);
+    border: var(--border-width) solid var(--border-color);
+    border-bottom: none;
+    -webkit-app-region: drag;
+}
+
+#app-mount .perksModal-CLcR1c {
+    border: var(--border-width) solid var(--border-color);
+    border-bottom-left-radius: var(--round-corners);
+    border-bottom-right-radius: var(--round-corners);
+    margin-top: 35px !important;
+}
+.perksModal-CLcR1c::before {
+    background: linear-gradient(var(--drag-gradient));
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 32px;
+    border-top-left-radius: var(--round-corners);
+    border-top-right-radius: var(--round-corners);
+    width: calc(100% - var(--border-width)*2);
+    border: var(--border-width) solid var(--border-color);
+    border-bottom: none;
+    -webkit-app-region: drag;
+}

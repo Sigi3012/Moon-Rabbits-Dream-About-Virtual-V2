@@ -1,0 +1,30 @@
+/* Like Another Window */
+#app-mount .withFrame-2dL45i {
+    margin: 24px 24px 0;
+}
+#app-mount .withFrame-2dL45i::after {
+    top: calc(30px + var(--border-width));
+    width: calc((100% - var(--border-width)*2) - 24px*2);
+}
+#app-mount .layers-OrUESM {
+    margin: 0 24px 24px;
+}
+#app-mount .layers-OrUESM {
+    box-shadow: var(--elevation-high);
+}
+
+.noticeWrapper-8z511t /* BD Notice */ {
+    margin-left: 24px;
+    margin-right: 24px;
+    border-left: var(--the-borders);
+    border-right: var(--the-borders);
+    box-shadow: none !important;
+}
+
+#app-mount .typeMacOS-3V4xXE /* MacOS window */ {
+    margin-top: 24px;
+    margin-left: 24px;
+    border-top-left-radius: var(--radius-theme);
+    border-top-right-radius: var(--radius-theme);
+    width: calc(100% - 54px);
+}
